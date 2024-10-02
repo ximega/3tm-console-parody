@@ -28,8 +28,8 @@ class Route:
             except ValueError:
                 pass
             
-    def rename(self, to: int):
-        self.number = to
+    def rename(self, new_number: int) -> None:
+        self.number = new_number
         
-    def transfer(self, new_depot: int):
+    def transfer(self, new_depot: int) -> None:
         self.depot = new_depot

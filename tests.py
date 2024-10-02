@@ -1,5 +1,12 @@
-foo = [1, 2]
+class Foo:
+    class Bar:
+        def __init__(self):
+            self.bar = "112233"
+            
+    def __init__(self):
+        self.foo = 'abc'
+        self.sbar = self.Bar()
+        
+obj = Foo()
 
-foo.extend((3, 4))
-
-print(foo)
+print(obj.Bar)

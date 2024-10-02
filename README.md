@@ -1,0 +1,1 @@
+P.S. Author got an idea for this project when he wanted to test his own skills. Idea came from https://play.google.com/store/apps/details?id=com.km.trans&hl=en&pli=1 . Author doesn't have any intentions to steal or copy it

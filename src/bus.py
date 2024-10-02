@@ -77,6 +77,6 @@ class Bus:
     def set_next_stop(self, bus_stop: BusStop, time: int) -> None:
         self.next_stop = (bus_stop, time)
         
-    def transfer(self, new_depot: int, new_depot_number: int):
+    def transfer(self, new_depot: int, new_depot_number: int) -> None:
         self.depot = new_depot
         self.depot_num = new_depot_number
